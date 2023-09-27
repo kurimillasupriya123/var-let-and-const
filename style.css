@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	transition: 5s;
+	background-position: center;
+	animation-name: animation;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+	
+}
+@keyframes animation{
+	30%{
+		background-image: url(image.1.jpg);
+		
+	}
+	50%{
+		background-image: url(image.2.jpg);
+		
+	}
+	100%{
+		background-image: url(desktop-wallpaper.jpg);
+	}
+}
